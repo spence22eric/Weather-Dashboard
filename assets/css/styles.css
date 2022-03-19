@@ -1,0 +1,24 @@
+body * {
+    border: solid 1px;    
+}
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.search-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: .5em;
+}
+
+.search-form > * {
+    margin-bottom: .8em;
+}
