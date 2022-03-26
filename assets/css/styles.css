@@ -85,7 +85,7 @@ header {
 .forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
-    border: blue solid 5px;
+    /* border: blue solid 5px; */
     column-gap: 2.5em;
 }
 
@@ -94,7 +94,7 @@ header {
     background: rgb(51, 51, 77);
     color: white;
     padding: 8px;
-    border: red solid 5px;
+    border: black double 5px;
 }
 
 .weather:last-child {
